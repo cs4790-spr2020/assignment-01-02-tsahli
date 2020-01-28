@@ -15,15 +15,15 @@ Execute the commands below to setup your BlabberApp solution.
 - `mkdir -p BlabberApp`
 - `cd BlabberApp`
 - `dotnet new sln BlabberApp`
-- `dotnet new webapp BlabberApp.Client`
-- `dotnet new mstest BlabberApp.ClientTest`
-- `dotnet new console BlabberApp.Console`
-- `dotnet new webapi BlabberApp.WebApi`
-- `dotnet new mstest BlabberApp.WebApiTest`
-- `dotnet new classlib BlabberApp.DataStore`
-- `dotnet new mstest BlabberApp.DataStoreTest`
-- `dotnet new classlib BlabberApp.Domain`
-- `dotnet new mstest BlabberApp.DomainTest`
+- `dotnet new webapp -o BlabberApp.Client`
+- `dotnet new mstest -o BlabberApp.ClientTest`
+- `dotnet new console -o BlabberApp.Console`
+- `dotnet new webapi -o BlabberApp.WebApi`
+- `dotnet new mstest -o BlabberApp.WebApiTest`
+- `dotnet new classlib -o BlabberApp.DataStore`
+- `dotnet new mstest -o BlabberApp.DataStoreTest`
+- `dotnet new classlib -o BlabberApp.Domain`
+- `dotnet new mstest -o BlabberApp.DomainTest`
 
 Execute the command below to build your BlabberApp solution: `dotnet build BlabberApp.sln`
 
