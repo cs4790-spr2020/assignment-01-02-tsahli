@@ -1,0 +1,11 @@
+BLABBER
+Domain
+    -IDataStore
+    bool create(IDatum datum)
+    IDatum read(ISearchTemplate)
+    bool update()
+    bool delete(system id)
+    users (username, contact info)
+    searchUsers
+    Blabs (text, timestamp, author)
+    searchBlabs
