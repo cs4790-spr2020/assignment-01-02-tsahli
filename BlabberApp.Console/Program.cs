@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Sys = System;
 
 namespace BlabberApp.Console
 {
@@ -6,7 +6,7 @@ namespace BlabberApp.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Sys.Console.WriteLine("Hello World!");
         }
     }
 }
